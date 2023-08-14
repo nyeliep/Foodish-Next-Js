@@ -1,5 +1,5 @@
 import React from "react";
-import MenuItem from "@/app/menuItem/page";
+import MenuItem from "../menuItem";
 
 const Menu = () => {
   return (

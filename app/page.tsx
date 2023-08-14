@@ -1,13 +1,13 @@
-import Landing from './landing/page'
-import Navbar from './navigation/page'
-import Categories from './categories/page'
-import Menu from './menu/page'
-import Discount from './discount/page'
-import Footer from './footer/page'
+import Landing from './landing'
+import Navbar from './navigation'
+import Categories from './categories'
+import Menu from './menu'
+import Discount from './discount'
+import Footer from './footer'
 
 export default function Home() {
   return (
-    <main >
+    <main  className='bg-white'>
       <Navbar/>
      <Landing/>
      <Categories/>

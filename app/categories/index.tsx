@@ -18,7 +18,7 @@ const Categories = () => {
       <div className="flex justify-center space-x-10">
         <div className="flex flex-col items-center">
           <div className="w-54 h-44 rounded-full bg-green-300 flex justify-center items-center">
-            <div className="burger">
+            <div className="">
               <img src="/media/burger-clip.png" alt="Burger" />
             </div>
           </div>

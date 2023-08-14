@@ -31,10 +31,10 @@ const MenuItem: React.FC<MenuItemProps> = ({ imageUrl, name, ratings, price }) =
     <div className="bg-white shadow-md rounded-md  menu-item w-1/2">
       <div className="relative">
         <div>
-          <img src={imageUrl} alt={name} className="object-cover   w-44 h-44 round-full  border-pink-500 border-10 border-pink-500 rounded-full ml-32 mt-1 circle-background " />
+          <img src={imageUrl} alt={name} className="object-cover w-44 h-44 round-full  border-pink-500 border-10 border-pink-500 rounded-full ml-32 mt-1 circle-background " />
         </div>
       </div>
-      <div className="p-4">
+      <div className="p-4 ">
         <h6 className="font-semibold text-lg">{name}</h6>
         <div className="flex space-x-1  w-24 h-24">{renderStars()}</div>
         <div className="flex items-center mt-2">
